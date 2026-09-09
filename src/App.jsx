@@ -1,3 +1,5 @@
+import Section from "./components/Section"
+
 export default function App() {
   return (
     <div className="min-h-screen flex justify-center bg-blue-950">
@@ -5,15 +7,10 @@ export default function App() {
         <h1 className="w-full p-6 bg-amber-100 font-extrabold">
           React App Starter
         </h1>
-        <section className="w-full p-5 bg-amber-100 flex">
-          <ul className="list-inside list-disc flex-1">
-            <span className="font-semibold">Tech Stack:</span>
-            <li>Vite</li>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>Tailwind</li>
-          </ul>
-        </section>
+        <Section />
+        <Section />
+        <Section />
+        <Section />
       </div>
     </div>
   );
